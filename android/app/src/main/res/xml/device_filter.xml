@@ -8,14 +8,9 @@
     <usb-device vendor-id="0x0483" /> <!-- STMicroelectronics -->
     <usb-device vendor-id="0x04B8" /> <!-- Epson -->
     <usb-device vendor-id="0x0525" /> <!-- PLX Technology -->
+    <usb-device vendor-id="0x0416" /> <!-- WinChipHead -->
     <usb-device vendor-id="0x0BDA" /> <!-- Realtek -->
-    <usb-device vendor-id="0x1A86" /> <!-- QinHeng Electronics -->
-    <usb-device vendor-id="0x2341" /> <!-- Arduino -->
-    <usb-device vendor-id="0x2A03" /> <!-- Arduino -->
-    <usb-device vendor-id="0x0403" /> <!-- FTDI -->
-    <usb-device vendor-id="0x067B" /> <!-- Prolific Technology -->
-    <usb-device vendor-id="0x10C4" /> <!-- Silicon Labs -->
     
-    <!-- Generic USB Serial devices -->
-    <usb-device class="2" /> <!-- USB Communications Device Class -->
+    <!-- USB Communications Device Class -->
+    <usb-device class="2" />
 </resources>

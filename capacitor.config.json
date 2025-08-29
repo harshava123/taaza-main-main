@@ -2,13 +2,14 @@
   "appId": "com.taaza.app",
   "appName": "taaza",
   "webDir": "dist",
+  "bundledWebRuntime": false,
   "android": {
     "buildOptions": {
-      "keystorePath": null,
-      "keystorePassword": null,
-      "keystoreAlias": null,
-      "keystoreAliasPassword": null,
-      "releaseType": "debug"
+      "keystorePath": "release-key.keystore",
+      "keystoreAlias": "key0",
+      "keystorePassword": "android",
+      "keyPassword": "android",
+      "releaseType": "release"
     }
   }
 }
